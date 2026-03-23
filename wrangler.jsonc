@@ -14,15 +14,16 @@
     "args": [
     "mcp-remote",
     "http://localhost:8787/sse","https://remote-mcp-server-authless.thihakyaw-dtr.workers.dev//sse"
-   				   ]
-			    }
-	}
-	"migrations": [
-		{
+   			]
+		  }
+		},
+	
+    "migrations": {
+		[
 			"new_sqlite_classes": ["MyMCP"],
 			"tag": "v1"
-		}
-	],
+		]
+	},
 	"durable_objects": {
 		"bindings": [
 			{
