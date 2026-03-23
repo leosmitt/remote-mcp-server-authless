@@ -25,16 +25,15 @@
 	"observability": {
 		"enabled": true
 
-	{
-  "mcpServers": {
+	"mcpServers": {
     "remote-example": {
-      "command": "npx",
-      "args": [
-        "mcp-remote",
-        "http://localhost:8787/sse","https://remote-mcp-server-authless.thihakyaw-dtr.workers.dev//sse"
-      ]
-    }
-  }
-}
+    "command": "npx",
+    "args": [
+    "mcp-remote",
+    "http://localhost:8787/sse","https://remote-mcp-server-authless.thihakyaw-dtr.workers.dev//sse"
+   				   ]
+			    }
+ 			 }
+
 	}
 }
