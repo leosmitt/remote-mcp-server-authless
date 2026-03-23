@@ -24,6 +24,7 @@
 			"tag": "v1"
 		}
 	],
+	{
 	"durable_objects": {
 		"bindings": [
 			{
@@ -34,7 +35,7 @@
 	},
 	"observability": {
 		"enabled": true
-
+				}
+			}
 		}
-	}
 }
