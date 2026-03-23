@@ -24,7 +24,7 @@
 	},
 	"observability": {
 		"enabled": true
-
+	{
 	"mcpServers": {
     "remote-example": {
     "command": "npx",
