@@ -18,12 +18,12 @@
 		  }
 		},
 	
-    "migrations": {
-		[
+    "migrations": [
+		{
 			"new_sqlite_classes": ["MyMCP"],
 			"tag": "v1"
-		]
-	},
+		}
+	],
 	"durable_objects": {
 		"bindings": [
 			{
