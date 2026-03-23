@@ -16,7 +16,6 @@
     "http://localhost:8787/sse","https://remote-mcp-server-authless.thihakyaw-dtr.workers.dev//sse"
    				   ]
 			    }
- 			 }
 	"migrations": [
 		{
 			"new_sqlite_classes": ["MyMCP"],
