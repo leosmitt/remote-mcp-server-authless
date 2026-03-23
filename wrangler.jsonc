@@ -8,6 +8,15 @@
 	"main": "src/index.ts",
 	"compatibility_date": "2025-03-10",
 	"compatibility_flags": ["nodejs_compat"],
+	"mcpServers": {
+    "remote-example": {
+    "command": "npx",
+    "args": [
+    "mcp-remote",
+    "http://localhost:8787/sse","https://remote-mcp-server-authless.thihakyaw-dtr.workers.dev//sse"
+   				   ]
+			    }
+ 			 }
 	"migrations": [
 		{
 			"new_sqlite_classes": ["MyMCP"],
@@ -24,16 +33,7 @@
 	},
 	"observability": {
 		"enabled": true
-	{
-	"mcpServers": {
-    "remote-example": {
-    "command": "npx",
-    "args": [
-    "mcp-remote",
-    "http://localhost:8787/sse","https://remote-mcp-server-authless.thihakyaw-dtr.workers.dev//sse"
-   				   ]
-			    }
- 			 }
 
+		}
 	}
 }
