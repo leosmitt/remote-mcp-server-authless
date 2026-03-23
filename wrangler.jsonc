@@ -24,5 +24,16 @@
 	},
 	"observability": {
 		"enabled": true
+
+	"mcpServers": {
+		"calculator": {
+			"command": "npx",
+			"args": [
+				"mcp-remote",
+				"http://localhost:8787/sse","remote-mcp-server-authless.your-account.workers.dev/sse"
+					]
+				}
+			}
+		}
 	}
 }
